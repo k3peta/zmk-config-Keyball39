@@ -283,3 +283,5 @@ layers:
 combos:
 - p: [11, 12]
   k: $$mdi:keyboard-tab$$
+- p: [12, 13]
+  k: $$mdi:keyboard-tab-reverse$$
