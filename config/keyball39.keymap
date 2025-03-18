@@ -59,14 +59,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        AS2sft {
-            bindings = <&kp LEFT_SHIFT>;
-            key-positions = <10 11>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
