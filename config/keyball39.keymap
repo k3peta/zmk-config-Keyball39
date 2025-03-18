@@ -66,6 +66,11 @@
             bindings = <&kp TAB>;
             key-positions = <11 12>;
         };
+
+        shifttab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <12 13>;
+        };
     };
 
     keymap {
