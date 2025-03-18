@@ -280,6 +280,3 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-combos:
-- p: [10, 11]
-  k: $$mdi:apple-keyboard-shift$$
