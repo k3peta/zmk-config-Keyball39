@@ -31,7 +31,7 @@ layers:
   - Z
   - P
   - $$mdi:keyboard-tab$$
-  - Q
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - {t: LANG2, h: SYM}
@@ -91,9 +91,9 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - $$mdi:bluetooth-off$$
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:bluetooth-off$$', type: held alternate}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$', type: held alternate}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$', type: held alternate}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
@@ -282,6 +282,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [11, 12]
-  k: $$mdi:keyboard-tab$$
+  k: {t: 'Alt+$$mdi:keyboard-tab$$', h: SYM}
 - p: [12, 13]
   k: $$mdi:keyboard-tab-reverse$$
+- p: [10, 11]
+  k: {t: '$$mdi:keyboard-tab$$', h: SYM}
