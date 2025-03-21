@@ -62,14 +62,19 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
+        l2tab {
+            bindings = <&lt 2 LA(TAB)>;
             key-positions = <11 12>;
         };
 
         shifttab {
             bindings = <&kp LS(TAB)>;
             key-positions = <12 13>;
+        };
+
+        l2 {
+            bindings = <&lt 2 TAB>;
+            key-positions = <10 11>;
         };
     };
 
@@ -82,7 +87,7 @@
 &mt LEFT_CONTROL Q  &kp W         &kp E         &kp R        &kp T                                                &kp Y             &kp U  &kp I  &kp O    &mt RIGHT_CONTROL P
 &kp A               &kp S         &kp D         &kp F        &kp G                                                &kp H             &kp J  &kp K  &lt 1 L  &mt RSHFT ENTER
 &mt LEFT_SHIFT Z    &lt 2 X       &kp C         &kp V        &kp B                                                &kp N             &kp M  &kp Z  &kp P    &kp TAB
-&kp Q               &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 LANG2  &mt LEFT_SHIFT SPACE  &kp LEFT_CONTROL  &lt 3 SPACE  &lt 1 LANGUAGE_1                         &lt 5 LA(GRAVE)
+&kp LEFT_CONTROL    &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 LANG2  &mt LEFT_SHIFT SPACE  &kp LEFT_CONTROL  &lt 3 SPACE  &lt 1 LANGUAGE_1                         &lt 5 LA(GRAVE)
             >;
         };
 
