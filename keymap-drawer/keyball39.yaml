@@ -36,10 +36,10 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: LANG2, h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: Alt+`, h: SCROLL, s: Alt+~}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-space$$', h: FUN}
   - {t: LANGUAGE 1, h: NUM}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Alt+`, h: SCROLL, s: Alt+~}
   NUM:
   - '1'
   - '2'
@@ -236,10 +236,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
