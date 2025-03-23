@@ -1,4 +1,4 @@
-#define DEFAULT 0
+h#define DEFAULT 0
 #define NUM     1
 #define SYM     2
 #define FUN     3
@@ -14,13 +14,13 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &lt {
-    tapping-term-ms = <220>;
+    tapping-term-ms = <190>;
     flavor = "balanced";
     quick-tap-ms = <150>;
 };
 
 &mt {
-    tapping-term-ms = <240>;
+    tapping-term-ms = <190>;
     flavor = "tap-preferred";
     quick-tap-ms = <150>;
 };
