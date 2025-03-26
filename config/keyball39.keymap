@@ -1,5 +1,3 @@
-
-
 #define DEFAULT 0
 #define NUM     1
 #define SYM     2
@@ -73,6 +71,26 @@
             bindings = <&kp LS(TAB)>;
             key-positions = <12 13>;
         };
+
+        left {
+            bindings = <&kp LEFT>;
+            key-positions = <16 17>;
+        };
+
+        right {
+            bindings = <&kp RIGHT>;
+            key-positions = <17 18>;
+        };
+
+        up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <16 7>;
+        };
+
+        down {
+            bindings = <&kp DOWN>;
+            key-positions = <16 27>;
+        };
     };
 
     keymap {
@@ -91,20 +109,20 @@
         Layer1 {
             label = "NUM";
             bindings = <
-&kp NUMBER_1   &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4  &kp NUMBER_5                  &kp F6         &kp F7     &kp F8         &kp F9  &kp F10
-&kp LBKT       &kp RIGHT_BRACKET  &kp COMMA         &kp PERIOD    &kp MINUS                     &kp SPACE      &kp ENTER  &kp RIGHT_ALT  &trans  &kp RIGHT_SHIFT
-&kp BACKSLASH  &kp SEMICOLON      &kp SINGLE_QUOTE  &kp SLASH     &kp EQUAL                     &kp BACKSPACE  &kp GRAVE  &trans         &trans  &none
-&kp ESCAPE     &trans             &trans            &trans        &trans        &trans  &trans  &trans                                           &trans
+&kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp SLASH      &kp GRAVE  &kp APOSTROPHE  &trans  &kp DELETE
+&kp LBKT      &kp RIGHT_BRACKET  &kp COMMA     &kp PERIOD    &kp MINUS                     &kp SPACE      &kp ENTER  &kp RIGHT_ALT   &trans  &kp RIGHT_SHIFT
+&kp NUMBER_6  &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                  &kp BACKSPACE  &kp EQUAL  &kp SEMI        &trans  &kp BACKSLASH
+&kp ESCAPE    &trans             &trans        &trans        &trans        &trans  &trans  &trans                                            &trans
             >;
         };
 
         Layer2 {
             label = "SYM";
             bindings = <
-&kp ESCAPE  &kp F2  &kp F3  &kp F4  &kp F5                  &kp NUMBER_6   &kp N7    &kp N8          &kp N9           &kp N0
-&none       &none   &none   &none   &trans                  &kp MINUS      &kp F11   &kp UP_ARROW    &kp F12          &kp LG(ENTER)
-&trans      &trans  &trans  &trans  &trans                  &kp BACKSPACE  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
-&trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans
+&trans  &trans  &trans  &trans  &trans                  &trans         &trans          &kp UP_ARROW    &trans           &trans
+&none   &none   &none   &none   &trans                  &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(ENTER)
+&trans  &trans  &trans  &trans  &trans                  &kp BACKSPACE  &trans          &kp DOWN_ARROW  &trans           &none
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                          &trans
             >;
         };
 
