@@ -28,7 +28,7 @@ layers:
   - B
   - N
   - M
-  - $$mdi:mouse-left-click-outline$$
+  - '&mkp MB1'
   - '&mkp MB2'
   - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-control$$
