@@ -121,7 +121,7 @@
             bindings = <
 &trans  &kp LEFT_SHIFT  &trans      &kp RIGHT_BRACKET  &kp NON_US_HASH                  &trans          &kp F7          &kp UP_ARROW  &trans           &kp UP
 &none   &none           &kp DELETE  &kp RIGHT_ARROW    &trans                           &kp BACKSPACE   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &kp LG(ENTER)
-&trans  &trans          &trans      &trans             &kp LEFT_ARROW                   &kp DOWN_ARROW  &kp RET         &trans        &trans           &none
+&trans  &trans          &trans      &trans             &kp LEFT_ARROW                   &kp DOWN_ARROW  &kp RET         &mkp MB1      &mkp MB2         &none
 &trans  &trans          &trans      &trans             &trans           &trans  &trans  &trans                                                         &trans
             >;
         };
@@ -142,7 +142,7 @@
 &none  &none   &none   &none   &none                   &none          &none  &none     &none     &none
 &none  &none   &none   &none   &none                   &kp PAGE_UP    &none  &mo 5     &none     &none
 &none  &none   &none   &none   &none                   &kp PAGE_DOWN  &none  &mkp MB1  &mkp MB2  &none
-&none  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                    &none
+&none  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                    &mkp MB3
             >;
         };
 
