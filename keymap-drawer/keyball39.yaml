@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: keyball39}
 layers:
   QWRT:
-  - {t: Q, h: SYM}
+  - SYM
   - W
   - E
   - R
@@ -293,3 +293,5 @@ combos:
   k: $$mdi:arrow-up-bold$$
 - p: [16, 27]
   k: $$mdi:arrow-down-bold$$
+- p: [0, 1]
+  k: Q
