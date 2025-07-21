@@ -14,20 +14,20 @@ layers:
   - A
   - S
   - D
-  - F
+  - T
   - G
+  - M
   - H
-  - J
   - {t: K, h: SCROLL}
   - {t: L, h: NUM}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
   - C
-  - V
+  - Z
   - B
   - N
-  - M
+  - N
   - '&mkp MB1'
   - '&mkp MB2'
   - $$mdi:keyboard-tab$$
@@ -92,8 +92,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -281,17 +281,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [11, 12]
-  k: {t: 'Alt+$$mdi:keyboard-tab$$', h: SYM}
-- p: [12, 13]
-  k: $$mdi:keyboard-tab-reverse$$
-- p: [16, 17]
-  k: $$mdi:arrow-left-bold$$
-- p: [17, 18]
-  k: $$mdi:arrow-right-bold$$
-- p: [16, 7]
-  k: $$mdi:arrow-up-bold$$
-- p: [16, 27]
-  k: $$mdi:arrow-down-bold$$
-- p: [0, 1]
+- p: [1, 2]
   k: Q
+- p: [13, 12]
+  k: B
+- p: [13, 16]
+  k: Y
+- p: [8, 7]
+  k: P
+- p: [16, 17]
+  k: J
+- p: [17, 18]
+  k: LANGUAGE 1
+- p: [12, 11]
+  k: Gui+LANGUAGE 2
