@@ -2,7 +2,7 @@ layout: {zmk_keyboard: keyball39}
 layers:
   QWRT:
   - SYM
-  - W
+  - {t: W, h: SYM}
   - E
   - R
   - T
@@ -21,12 +21,12 @@ layers:
   - {t: K, h: SCROLL}
   - {t: L, h: NUM}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
+  - V
   - X
   - C
   - Z
   - B
-  - N
+  - J
   - N
   - '&mkp MB1'
   - '&mkp MB2'
@@ -82,7 +82,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
   - {type: held}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ']', s: '}'}
   - '#'
