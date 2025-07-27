@@ -93,7 +93,7 @@
         };
 
         lang2 {
-            bindings = <&kp RG(LANGUAGE_2)>;
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <12 11>;
         };
     };
@@ -104,9 +104,9 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&mo 2             &lt 2 W       &kp E                    &kp R                        &kp T                                  &kp Y             &kp U  &kp I     &kp O     &kp P
+&mo 2             &lt 2 W       &kp E                    &kp R                        &kp F                                  &kp Y             &kp U  &kp I     &kp O     &kp P
 &kp A             &kp S         &kp D                    &kp T                        &kp G                                  &kp M             &kp H  &lt 5 K   &lt 1 L   &mt RSHFT ENTER
-&kp V             &kp X         &kp C                    &kp Z                        &kp B                                  &kp J             &kp N  &mkp MB1  &mkp MB2  &kp TAB
+&kp X             &kp C         &kp V                    &kp Z                        &kp B                                  &kp J             &kp N  &mkp MB1  &mkp MB2  &kp TAB
 &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_2  &mt LEFT_COMMAND LANGUAGE_2  &kp SPACE  &kp BACKSPACE  &lt 3 SPACE  &lt 1 LANGUAGE_1                             &mkp MB3
             >;
         };
@@ -114,10 +114,10 @@
         Layer1 {
             label = "NUM";
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp SLASH      &kp GRAVE  &kp APOSTROPHE  &trans  &kp DELETE
-&kp LBKT      &kp RIGHT_BRACKET  &kp COMMA     &kp PERIOD    &kp MINUS                     &kp SPACE      &kp ENTER  &kp RIGHT_ALT   &trans  &kp RIGHT_SHIFT
-&kp NUMBER_6  &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                  &kp BACKSPACE  &kp EQUAL  &kp SEMI        &trans  &kp BACKSLASH
-&kp ESCAPE    &trans             &trans        &trans        &trans        &trans  &trans  &trans                                            &trans
+&kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp SLASH      &kp GRAVE  &kp APOSTROPHE  &kp RIGHT_ALT  &kp DELETE
+&kp LBKT      &kp RIGHT_BRACKET  &kp COMMA     &kp PERIOD    &kp MINUS                     &kp SPACE      &kp SPACE  &kp ENTER       &trans         &kp RIGHT_SHIFT
+&kp NUMBER_6  &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                  &kp BACKSPACE  &kp EQUAL  &kp SEMI        &trans         &kp BACKSLASH
+&kp ESCAPE    &trans             &trans        &trans        &trans        &trans  &trans  &trans                                                   &trans
             >;
         };
 
